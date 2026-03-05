@@ -30,4 +30,9 @@ struct RecipeCard
         Servings = servings;
         Ingredients = ingredients;
     }
+
+    public void PrintRecipe()
+    {
+        Console.WriteLine($"{}")
+    }
 }
