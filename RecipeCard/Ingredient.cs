@@ -17,22 +17,4 @@ struct Ingredient
 
 }
 
-struct RecipeCard
-{
-    public string Name;
-    public int Servings;
-    Ingredient[] Ingredients = new Ingredient[3];
-  
 
-    public RecipeCard(string name, int servings, Ingredient[] ingredients)
-    {
-        Name = name;
-        Servings = servings;
-        Ingredients = ingredients;
-    }
-
-    public void PrintRecipe()
-    {
-        Console.WriteLine($"{}")
-    }
-}
